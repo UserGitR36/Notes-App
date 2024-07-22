@@ -1,0 +1,128 @@
+.note-section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+    background-color: #F7ECDC;
+    padding: 0px;
+  }
+  
+  .group-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+  }
+  
+  .group-icon {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  
+  .notes-container {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 30px;
+  }
+  
+  .note {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+    padding: 10px;
+    margin-left: 100px;
+  }
+  
+  .note-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 0.9em;
+    color: #888;
+    margin-right: 25px;
+   
+  }
+  
+  .note-time,
+  .note-date {
+    margin-bottom: 3px;
+   
+  }
+  
+  .note-body {
+    font-size: 1rem;
+    color: #333;
+    flex-grow: 1;
+    text-align: left;
+   
+  }
+  
+  .textarea-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 15px solid transparent;
+    border-radius: 5px;
+    margin: 20px 0px;
+    width: calc(100% - 40px);
+  }
+  
+  .textarea-container:hover {
+    border-color: #E8E8E8;
+  }
+  
+  .textarea-container textarea {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    background: white;
+    resize: none;
+    color: #000000;
+  }
+  
+  .send-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

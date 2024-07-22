@@ -1,0 +1,76 @@
+.container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.note-heading {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.note-heading h3 {
+  margin: 10px;
+  font-size: 28px;
+  color: #555;
+}
+
+.create-note {
+  margin-bottom: 20px;
+}
+
+.create-note button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.create-note button:hover {
+  background-color: #0056b3;
+}
+
+.create-notes:hover {
+  background-color: #E8E8E8;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+

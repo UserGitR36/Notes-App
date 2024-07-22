@@ -1,0 +1,156 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #F7ECDC;
+  height: 100%;
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #333;
+  color: #000000;
+  overflow-y: auto;
+  transition: transform 0.3s ease;
+}
+
+.sidebar.hidden {
+  transform: translateX(-100%);
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.note-section {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #F7ECDC; 
+}
+
+.textarea-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin-left: 20px;
+  width: calc(100% - 40px); 
+}
+
+.textarea-container:hover {
+  background-color: #E8E8E8;
+}
+
+.textarea-container textarea {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  background: none;
+  resize: none;
+  color: #000000;
+}
+
+.send-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+.note-heading-container {
+  position: relative;
+  width: calc(100% - 40px);
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  margin: 2px auto; 
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.note-heading-container:hover {
+  background-color: #E8E8E8; 
+}
+
+.note-icon {
+  background-color: #ddd;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 18px;
+}
+
+.note-name {
+  font-size: 16px;
+  color: #333;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: absolute;
+    z-index: 1000;
+    height: 100%;
+  }
+
+  .sidebar.hidden {
+    transform: translateX(-250px);
+  }
+
+  .content {
+    padding: 10px;
+  }
+
+  .note-section {
+    padding: 10px;
+  }
+
+  .note-heading-container {
+    width: calc(100% - 16px);
+    padding: 4px;
+  }
+
+  .note-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+  }
+
+  .note-name {
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
+
+

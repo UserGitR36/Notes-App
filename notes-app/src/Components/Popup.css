@@ -1,0 +1,87 @@
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.popup {
+  background-color:#fff;
+  border-radius: 8px ;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+.popup h2 {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 1.5em;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 15px;
+  color: #333;
+  font-weight: 700;
+}
+
+.group-name-input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.color-section {
+  margin-bottom: 20px;
+}
+
+.color-picker {
+  display: flex;
+  gap: 10px;
+}
+
+.color-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.color-circle.selected {
+  border: 3px solid #0047FF;
+}
+
+.create-button {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  margin-left: 300px;
+}
+
+
+
+
+
+
+
+
+
